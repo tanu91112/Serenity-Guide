@@ -1,52 +1,55 @@
+# Contributing Guidelines
 
-# Contributing to Serenity Guide
+We welcome contributions to this project! To ensure a smooth collaboration, please follow these guidelines.
 
-Thank you for your interest in contributing! We appreciate your help in making this project better. Here’s how you can get started:
+## How to Contribute
 
-## 1. Fork and Clone the Repository
+### 1. Fork the Repository
+   - Click on the "Fork" button at the top right corner of this page.
+   - Clone your forked repository to your local machine:
+     ```bash
+     git clone https://github.com/your-username/repo-name.git
+     ```
 
-To begin contributing:
+### 2. Create a Branch
+   - Create a new branch for your feature or bug fix:
+     ```bash
+     git checkout -b your-branch-name
+     ```
 
-1. **Fork the Repository**: Click the “Fork” button at the top-right of the repository page.
-2. **Clone Your Fork**: Copy the repository URL and clone it to your local machine:
-   ```bash
-   git clone https://github.com/your-username/Serenity-Guide.git
-   ```
+### 3. Make Your Changes
+   - Make the necessary changes in your local branch.
+   - Ensure that your code adheres to the project's coding standards.
 
-## 2. Create a New Branch
+### 4. Test Your Changes
+   - Run tests to confirm that your changes work as expected.
+   - If applicable, add new tests for any new features.
 
-Always create a new branch for your changes to keep your work organized. Use descriptive names for your branches:
+### 5. Commit Your Changes
+   - Commit your changes with a descriptive message:
+     ```bash
+     git commit -m "Brief description of your changes"
+     ```
 
-```bash
-git checkout -b feature-branch-name
-```
+### 6. Push to Your Fork
+   - Push your changes back to your forked repository:
+     ```bash
+     git push origin your-branch-name
+     ```
 
-Examples of branch names:
-- `feature-new-dashboard`
-- `fix-bug-login`
+### 7. Create a Pull Request
+   - Navigate to the original repository where you want to contribute.
+   - Click on the "New Pull Request" button.
+   - Select your branch from the drop-down menu and create the pull request.
 
-## 3. Code Style and Linting
+## Code of Conduct
+Please adhere to our [Code of Conduct](https://github.com/Devasy23/NewsAI/tree/main?tab=coc-ov-file) while contributing.
 
-Ensure that your code follows the project's coding standards. To maintain consistency, use the provided linting tools. If you're using JavaScript, you can run:
+## Issues
+If you find a bug or have a feature request, please open an issue in the repository. Be sure to include relevant details and steps to reproduce the issue.
 
-```bash
-npm run lint
-```
+## Documentation
+If you are making changes to the documentation, please ensure it is clear and up-to-date.
 
-## 4. Submitting a Pull Request (PR)
-
-Once your changes are ready:
-
-1. **Push Your Branch**: Push your changes to your forked repository:
-   ```bash
-   git push origin feature-branch-name
-   ```
-2. **Open a Pull Request**: Navigate to the original repository and click on “New Pull Request.” Select your branch and describe your changes in detail. Make sure to explain why your changes are needed.
-
-## 5. Communication
-
-If you have any questions or need clarification, feel free to open an issue or start a discussion in the **Discussions** tab. We're here to help!
-
----
-
-Feel free to add any additional sections or details specific to your project!
+## Thank You!
+Thank you for your interest in contributing to this project! Your help is greatly appreciated.
